@@ -1,5 +1,5 @@
-name: "chris.miller.is-tmp"
-title: "My Blog"
+name: "chris.miller.is"
+title: "Chris Miller"
 description: |
   My Blog
 output_dir: "docs"
@@ -9,4 +9,10 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - icon: fa fa-github
+      text: "My GitHub Profile"
+      href: "https://github.com/chrisrmiller"
+    - icon: fa fa-twitter
+      text: "My Twitter"
+      href: "https://twitter.com/SignalSkew"
 output: distill::distill_article
