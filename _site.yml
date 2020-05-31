@@ -1,13 +1,17 @@
 name: "chris.miller.is"
 title: "Chris Miller"
+favicon: images/favicon.png
 description: |
-  My Blog
-output_dir: "docs"
+  Exploring electronics design
+base_url: https://chris.miller.is
+repository_url: https://github.com/chrisrmiller/chris.miller.is
+creative_commons: CC BY
 navbar:
+  title: "Chris Miller"
   right:
     - text: "Home"
       href: index.html
-    - text: "About"
+    - text: "About Me"
       href: about.html
     - icon: fa fa-github
       text: "My GitHub Profile"
@@ -15,4 +19,8 @@ navbar:
     - icon: fa fa-twitter
       text: "My Twitter"
       href: "https://twitter.com/SignalSkew"
+collections:
+  posts:
+    creative_commons: CC BY
 output: distill::distill_article
+output_dir: "."
