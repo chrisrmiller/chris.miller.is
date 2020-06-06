@@ -1,17 +1,15 @@
 name: "chris.miller.is"
 title: "Chris Miller"
+base_url: https://chris.miller.is
 favicon: images/favicon.png
 description: |
-  Exploring electronics design
-base_url: https://chris.miller.is
-repository_url: https://github.com/chrisrmiller/chris.miller.is
-creative_commons: CC BY
+  Exploring embedded systems and electronics design.
 navbar:
-  title: "Chris Miller"
+  #title: "Chris Miller's personal blog"
   right:
     - text: "Home"
       href: index.html
-    - text: "About Me"
+    - text: "About"
       href: about.html
     - icon: fa fa-github
       text: "My GitHub Profile"
@@ -19,8 +17,13 @@ navbar:
     - icon: fa fa-twitter
       text: "My Twitter"
       href: "https://twitter.com/SignalSkew"
+    - icon: fa fa-rss
+      href: index.xml
 collections:
   posts:
     creative_commons: CC BY
+    repository_url: https://github.com/chrisrmiller/chris.miller.is
+    feed_items_max: 15
+    custom: _components/custom.html
 output: distill::distill_article
-output_dir: "."
+output_dir: "docs"

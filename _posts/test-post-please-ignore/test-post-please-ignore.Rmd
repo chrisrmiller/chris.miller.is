@@ -2,13 +2,18 @@
 title: "Test post. Please ignore"
 description: |
   A short description of the post.
+date: 05-25-2020
 author:
   - name: Chris Miller
-    url: https://example.com/norajones
-date: 05-25-2020
+    url: https://chris.miller.is/
+preview: "umberto-jXd2FSvcRr8-unsplash.jpg"
+categories:
+  - Testing
 output:
   distill::distill_article:
     self_contained: false
+    toc: false
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -19,3 +24,9 @@ Distill is a publication format for scientific and technical writing, native to 
 
 Learn more about using Distill at <https://rstudio.github.io/distill>.
 
+```{r, child="../../_components/bio.Rmd"}
+```
+
+## Acknowledgements {.appendix}
+
+Cover photo by [Umberto](https://unsplash.com/photos/jXd2FSvcRr8).

@@ -23,6 +23,7 @@
   <title>Chris Miller: Posts</title>
   
   
+  <link rel="icon" type="image/png" href="images/favicon.png"/>
   
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
@@ -730,6 +731,16 @@
   }
   
   
+  .sidebar-section.custom {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+  
+  .custom p {
+    margin-bottom: 0.5em;
+  }
+  
+  
   /* Improve display for browsers without grid (IE/Edge <= 15) */
   
   .downlevel {
@@ -1282,12 +1293,15 @@
 </div>
 <div class="nav-right">
 <a href="index.html">Home</a>
-<a href="about.html">About Me</a>
+<a href="about.html">About</a>
 <a href="https://github.com/chrisrmiller" aria-label="My GitHub Profile">
 <i class="fa fa-github" aria-hidden="true"></i>
 </a>
 <a href="https://twitter.com/SignalSkew" aria-label="My Twitter">
 <i class="fa fa-twitter" aria-hidden="true"></i>
+</a>
+<a href="index.xml">
+<i class="fa fa-rss" aria-hidden="true"></i>
 </a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
@@ -1613,22 +1627,41 @@ function init_posts_list() {
 
 
 
-<div class="posts-container posts-apply-limit l-page">
+<div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
 <div class="posts-list">
 <h1 class="posts-list-caption">Posts</h1>
 <a href="posts/test-post-please-ignore/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<script class="post-metadata" type="text/json">{"categories":["Testing"]}</script>
 <div class="metadata">
 <div class="publishedDate">May 25, 2020</div>
 </div>
 <div class="thumbnail">
-<img/>
+<img data-src="posts/test-post-please-ignore/umberto-jXd2FSvcRr8-unsplash.jpg"/>
 </div>
 <div class="description">
 <h2>Test post. Please ignore</h2>
 <p>A short description of the post.</p>
 </div>
 </a>
+</div>
+<div class="posts-sidebar">
+<div><div class="sidebar-section custom">
+  <h3>Search</h3>
+  <form action="https://duckduckgo.com/">
+    <input type="text" name="q" placeholder="Search...">
+    <input type="hidden" name="sites" value="https://chris.miller.is/">
+    <!--<button type="submit">Search</button>-->
+  </form>
+</div></div>
+<div class="sidebar-section categories">
+<h3>Categories</h3>
+<ul>
+<li>
+<a href="#Testing">Testing</a>
+<span class="category-count">(1)</span>
+</li>
+</ul>
+</div>
 </div>
 <div class="posts-more">
 <a href="#">More articles &raquo;</a>

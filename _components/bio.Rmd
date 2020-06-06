@@ -1,0 +1,3 @@
+## Author Bio {.appendix}
+
+Chris Miller is an electrical design engineer who enjoys tinkering with embedded systems and open-source hardware. He lives in Denver with his wife and their adopted cat, Margot.

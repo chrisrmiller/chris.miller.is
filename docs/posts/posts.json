@@ -6,13 +6,15 @@
     "author": [
       {
         "name": "Chris Miller",
-        "url": "https://example.com/norajones"
+        "url": "https://chris.miller.is/"
       }
     ],
     "date": "2020-05-25",
-    "categories": [],
-    "preview": {},
-    "last_modified": "2020-05-30T14:13:06-06:00",
+    "categories": [
+      "Testing"
+    ],
+    "preview": "posts/test-post-please-ignore/umberto-jXd2FSvcRr8-unsplash.jpg",
+    "last_modified": "2020-06-06T07:44:35-06:00",
     "input_file": {}
   }
 ]

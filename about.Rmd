@@ -1,9 +1,17 @@
 ---
-title: "About this blog"
+title: "About"
 description: |
-  Some additional details about the blog
+  This website is the personal project notebook and blog of Chris Miller.
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+# About Chris Miller
+Chris Miller is an electrical design engineer who enjoys tinkering with embedded systems and open-source hardware. He has over 10 years of experience designing systems and devices within the medical, automotive, and heavy equipment industries. He lives in Denver with his wife and their adopted cat, Margot.
+
+# About this blog
+This blog is a series of static HTML pages generated through [Distill](https://rstudio.github.io/distill), a publication format for scientific and technical writing. 
+
+Text, media, and other content are licensed under Creative Commons Attribution [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Figures and photos that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...", "Photo from ...", etc. 
+
+If you would like to use content from this site please remember to include a link back here. Thanks!
+
+Source code is available at https://github.com/chrisrmiller/chris.miller.is.

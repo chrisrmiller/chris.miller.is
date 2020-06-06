@@ -2,10 +2,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
     <title>Chris Miller</title>
-    <link>https://chris.miller.is/</link>
+    <link>https://chris.miller.is</link>
     <atom:link href="https://chris.miller.is/index.xml" rel="self" type="application/rss+xml"/>
-    <description>Exploring electronics design, 
+    <description>Exploring embedded systems and electronics design.
 </description>
+    <image>
+      <title>Chris Miller</title>
+      <url>https://chris.miller.is/images/favicon.png</url>
+      <link>https://chris.miller.is</link>
+    </image>
     <generator>Distill</generator>
     <lastBuildDate>Mon, 25 May 2020 00:00:00 +0000</lastBuildDate>
     <item>
@@ -13,8 +18,10 @@
       <dc:creator>Chris Miller</dc:creator>
       <link>https://chris.miller.is/posts/test-post-please-ignore</link>
       <description>A short description of the post.</description>
+      <category>Testing</category>
       <guid>https://chris.miller.is/posts/test-post-please-ignore</guid>
       <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://chris.miller.is/posts/test-post-please-ignore/umberto-jXd2FSvcRr8-unsplash.jpg" medium="image" type="image/jpeg"/>
     </item>
   </channel>
 </rss>
